@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: #143d49;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    background-color: #132c34;
+    box-shadow:  0 1px 10px 0px rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+nav span {
+    font-weight: bold;
+    color:whitesmoke ;
+    margin-left:50px ;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+nav div input {
+    margin-right:20px ;
+    width: 200px;
+    outline: 0;
+    border-radius: 5px;
+    border:0 ;
+    box-shadow:  0 1px 10px 0px rgb(4, 78, 111);
+    height: 20px;
+    padding: 5px;
+}
+section{
+    color: white;
+}
+img{
+    width:200px ; 
+    height: 300px;
+    margin-bottom:20px ; 
+}
